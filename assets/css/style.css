@@ -164,7 +164,7 @@ label {
     overflow: auto;
   }
   .trainer img {
-    width: 35%;
+    width: 34%;
     float: left;
   }
   
@@ -195,4 +195,8 @@ label {
   .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+  }
+  #Joanna-img img{
+      width: 35%;
+      float: right;
   }
