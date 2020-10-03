@@ -172,6 +172,7 @@ label {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #39a6b2;
 }
 .steps h2 {
     font-size: 55px;
@@ -313,6 +314,7 @@ label {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    opacity: 0.5;
     
 
   }
@@ -453,4 +455,10 @@ label {
   }
   .contact-form input:focus, .contact-form textarea:focus {
 
+  }
+  .step:not(:nth-child) {
+    border-bottom: 1px solid #39a6b2;
+  }
+  .step:last-child {
+    border-bottom: none;
   }
